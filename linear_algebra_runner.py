@@ -25,7 +25,7 @@ def test_task_3():
 
 if __name__ == "__main__":
     print("Input which task to test (1 or 2 or 3): ", end="")
-    task = int(input())
+    task = int(input() or 0)
     if task == 1:
         test_task_1()
     elif task == 2:
