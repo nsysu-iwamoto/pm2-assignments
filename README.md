@@ -22,11 +22,12 @@ pip install numpy scipy
 
 ## Tasks
 
-- [ ] 1. Newton Method?
+- [ ] 1. [Newton Method](/newton_method.md)
 - [ ] 2. [Monte Carlo Simulation](/monte_carlo.md)
 - [ ] 3. [Linear Algebra](/linear_algebra.md)
-- [ ] 4. ODE?
-- [ ] 5. Function interpolation?
+- [ ] 4. [Integration](/integration.md)
+- [ ] 5. ODE?
+- [ ] 6. Function interpolation?
 
 Open each `.md` file. Following the instructions, edit `.py` files.
 
