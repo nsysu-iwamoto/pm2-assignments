@@ -26,8 +26,8 @@ pip install numpy scipy
 - [ ] 2. [Monte Carlo Simulation](/monte_carlo.md)
 - [ ] 3. [Linear Algebra](/linear_algebra.md)
 - [ ] 4. [Integration](/integration.md)
-- [ ] 5. ODE?
-- [ ] 6. Function interpolation?
+- [ ] 5. [Ordinary Differential Equations](/ode.md)
+- [ ] 6. [Interpolation](/interpolation.md)
 
 Open each `.md` file. Following the instructions, edit `.py` files.
 
