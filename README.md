@@ -18,7 +18,7 @@ pip --version     # Check your pip is for correct Python version
 pip install numpy scipy
 ```
 
-## Tasks
+## Assignments
 
 - [ ] 1. [Newton Method](/newton_method.md)
 - [ ] 2. [Monte Carlo Simulation](/monte_carlo.md)
@@ -31,8 +31,7 @@ Open each `.md` file. Following the instructions, edit `.py` files.
 
 ## Submission
 
-If you want to submit your work, please notify me by email or on Google Classroom.
-Files in your GitHub repository  will be checked.
+See the PDF document for the submission procedure.
 
 It is nice if you can specify which *commit* is to be evaluated. To do that, find the *commit id* (commit hash or commit SHA) of the commit you want to submit. See the screenshot below.
 
