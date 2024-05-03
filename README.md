@@ -1,12 +1,10 @@
 # PhysMath2 Coding Assignments
 
-Ideas for coding assignments for [my lectures](https://www2.nsysu.edu.tw/iwamoto/physmath2.html) based on [Kreyszig's textbook](https://www.wiley.com/en-us/-p-9781119446842).
+Coding assignment for [my lecture](https://www2.nsysu.edu.tw/iwamoto/physmath2.html), AY2023 spring semester, based on [Kreyszig's textbook](https://www.wiley.com/en-us/-p-9781119446842).
 
 ## References
 
 - Kreyszig, [*Advanced Engineering Mathematics*](https://www.wiley.com/en-us/-p-9781119446842), 10th ed.
-- 大槻純也, [Python で学ぶ計算物理](https://www.physics.okayama-u.ac.jp/~otsuki/lecture/CompPhys2/index.html)
-- (more to be added)
 
 ## Requirements
 
