@@ -54,7 +54,10 @@ Implement this algorithm in the function `trapezoidal_with_bounds(f, a, b, n=100
 
 The above **Subtask 1b** can be improved by using Simpson's rule, which is more accurate than the trapezoidal rule, so do that.
 
-Namely, implement the Simpson's rule in the function `simpson_with_bounds(f, a, b, n=100)`, where
+Simpson's rule splits the integration range into `n` segments and approximates each segment by a quadratic function.
+Effectively, Simpson's rule with `n` segments corresponds to trapezoidal rule with `2n` segments, but it usually gives better result due to the use of quadratic functions.
+
+Implement the Simpson's rule in the function `simpson_with_bounds(f, a, b, n=100)`, where
 
 - Input: `f` is a function, `a` and `b` are floats specifying the integration range, and `n` is the number of separation. `b` may be smaller than or equal to `a`.
 - Output: a tuple of three numbers `(integral, lower, upper)`, where `lower` is an estimation of the lower bound and `upper` is an estimation of the upper bound.
