@@ -81,9 +81,9 @@ The detector is not sensitive to the particle itself, but if the particle decays
 We place it at (x, y, z) = (`detector_position`, 0, 0).
 Namely, if the particle lifetime is between `(detector_position - detector_radius) / speed` and `(detector_position + detector_radius) / speed`, we can detect the particle.
 
-Write a function `detect_probability(lifetime, speed, detector_length, detector_position)` to calculate the probability that we can detect the particle.
+Write a function `detect_probability(lifetime, speed, detector_radius, detector_position)` to calculate the probability that we can detect the particle.
 
-- Input: `lifetime`, `speed`, `detector_length`, and `detector_position`, as described above. These physical quantity have units, which we can ignore for now; `detector_length < detector_position` is guaranteed.
+- Input: `lifetime`, `speed`, `detector_radius`, and `detector_position`, as described above. These physical quantity have units, which we can ignore for now; `detector_radius < detector_position` is guaranteed.
 - Output: a number between zero and one.
 
 ### Subtask 2b
@@ -92,9 +92,9 @@ What happens if the emitter is angled? Imagine the particle velocity is (`speed 
 
 The spherical detector is located as before; its center is at (x, y, z) = (`detector_position`, 0, 0).
 
-Write a function `detect_probability_angled(lifetime, speed, max_angle, detector_length, detector_position)` to calculate the probability that we can detect the particle.
+Write a function `detect_probability_angled(lifetime, speed, max_angle, detector_radius, detector_position)` to calculate the probability that we can detect the particle.
 
-- Input: `lifetime`, `speed`, `max_angle`, `detector_length`, and `detector_position`, as described above, but you will call the function always with `max_angle = 0.25`.
+- Input: `lifetime`, `speed`, `max_angle`, `detector_radius`, and `detector_position`, as described above, but you will call the function always with `max_angle = 0.25`.
 - Output: a number between zero and one.
 
 Hint: Calculate the decay location and check if it is inside the detector or not.
